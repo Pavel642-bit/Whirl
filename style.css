@@ -170,7 +170,7 @@ body {
 
 body {
   margin: 0;
-  padding: 40px;
+  padding: 90px;
   background-color: white;
   font-family: system-ui, sans-serif;
 }
@@ -183,9 +183,9 @@ body {
 }
 
 .card {
-  width: 240px;
+  width: 355px;
+  height: 250px;
   padding: 24px;
-  border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -195,27 +195,27 @@ body {
 }
 
 .card h3 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 600;
   color: #111;
   margin-bottom: 10px;
 }
 
 .card p {
-  font-size: 14px;
+  font-size: 15px;
   color: #222;
   line-height: 1.5;
 }
 
 /* Backgrounds */
 .card.yellow {
-  background-color: #fef08a; /* Tailwind's yellow-200 */
+  background-color: #faea73; /* Tailwind's yellow-200 */
 }
 
 .card.blue {
-  background-color: #bae6fd; /* Tailwind's blue-100 */
+  background-color: #cceff6; /* Tailwind's blue-100 */
 }
 
 .card.pink {
-  background-color: #fbcfe8; /* Tailwind's pink-200 */
+  background-color: #f7cedc; /* Tailwind's pink-200 */
 }
